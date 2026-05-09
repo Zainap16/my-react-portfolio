@@ -5,10 +5,6 @@
 
 /* HERO/ABOUT ME SECTION */
 
-/* #nav-links {
-  align-items: center;
-} */
-
 .hero {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -37,6 +33,7 @@
 .hero-name {
   color: white;
   font-family: "Fraunces", serif;
+  /* font-family: 3rem; */
 }
 
 em {
@@ -132,18 +129,38 @@ button:active .button_top {
     padding-right: 5%;
   }
 
-  section,
   .hero-eyebrow span {
-    font-size: 11px;
+    font-size: 0.5rem;
+  }
+
+  .hero-desc,
+  .exp-item {
+    font-size: 0.8rem;
   }
 
   .exp-role,
   .card_title,
   .link,
-  .hero-name {
-    font-size: 12px;
+  .hero-name,
+  h2 {
+    font-size: 1.3rem;
   }
   .nav-links li a {
     align-items: center;
+  }
+}
+
+.hero-name {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-5px);
   }
 }
