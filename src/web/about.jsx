@@ -4,32 +4,6 @@ function AboutMe() {
   return (
     <>
       <div className="hero-about">
-        {/* NAVBAR  */}
-        <nav>
-          <a href="#" className="nav-logo">
-            zainap.vanblerck
-          </a>
-          <ul className="nav-links">
-            <li>
-              <a href="">SKILLS</a>
-            </li>
-            <li>
-              <a href="">PROJECTS</a>
-            </li>
-            <li>
-              <a href="">EXPERIENCE</a>
-            </li>
-            <li>
-              <a href="">CONTACT</a>
-            </li>
-          </ul>
-          <div className="nav-badge">
-            <div className="status-dot"></div>
-            <a href="#">available for hire</a>
-          </div>
-        </nav>
-        {/* NAVBAR  ENDS*/}
-
         {/* HERO ABOUT ME PAGE  */}
         <div className="hero">
           <div className="hero-left">
@@ -54,14 +28,14 @@ function AboutMe() {
               curious, always learning, and constantly looking for ways to
               challenge myself through creative and technical projects.
             </p>
-          </div>
-          <div className="about-btn">
-            <button>
-              <span className="button_top">View work</span>
-            </button>
-            <button>
-              <span className="button_top">Get in touch</span>
-            </button>
+            <div className="about-btn">
+              <button>
+                <span className="button_top">View work</span>
+              </button>
+              <button>
+                <span className="button_top">Get in touch</span>
+              </button>
+            </div>
           </div>
         </div>
         {/* HERO ABOUT ME PAGE END*/}

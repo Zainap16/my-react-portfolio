@@ -43,3 +43,8 @@ section,
 .card:hover {
   translate: -6px;
 }
+
+#skills {
+  position: relative;
+  z-index: 1;
+}
