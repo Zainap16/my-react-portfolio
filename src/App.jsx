@@ -5,6 +5,7 @@ import Contact from "./web/contact";
 import AboutMe from "./web/about";
 import Skills from "./web/skills";
 import Navbar from "./web/Navbar";
+// import CurrentlyWorkingOn from "./web/CurrentlyWorkingOn";
 function App() {
   return (
     <>
@@ -16,7 +17,9 @@ function App() {
       <Projects />
       <br />
       <Experience />
-      <br />
+      {/* <br />
+      <CurrentlyWorkingOn />
+      <br /> */}
       <Contact />
     </>
   );

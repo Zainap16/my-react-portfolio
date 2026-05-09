@@ -1,0 +1,100 @@
+/* Terminal.css */
+#terminal-container {
+  padding-right: 5%;
+}
+.terminal {
+  background: #111110;
+  border: 1px solid #2a2a26;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: "DM Mono", monospace;
+}
+
+.terminal-bar {
+  padding: 10px 14px;
+  background: #1a1a18;
+  border-bottom: 1px solid #2a2a26;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.terminal-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.terminal-dot.red {
+  background: #ff5f57;
+}
+.terminal-dot.yellow {
+  background: #ffbd2e;
+}
+.terminal-dot.green {
+  background: #27c93f;
+}
+
+.terminal-title {
+  margin-left: auto;
+  font-size: 11px;
+  color: #5a5a54;
+  letter-spacing: 0.06em;
+}
+
+.terminal-body {
+  padding: 1.5rem;
+}
+
+.t-line {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.t-prompt {
+  color: #c8f050;
+}
+.t-cmd {
+  color: #e8e6df;
+}
+.t-out {
+  color: #9a9890;
+  padding-left: 16px;
+}
+.t-key {
+  color: #f5a623;
+}
+.t-str {
+  color: #a8d8a8;
+}
+.t-num {
+  color: #ff5a4e;
+}
+
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: #c8f050;
+  vertical-align: middle;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* hide terminal completely on mobile */
+@media (max-width: 768px) {
+  .hero-terminal {
+    display: none;
+  }
+}

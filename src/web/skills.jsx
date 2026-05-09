@@ -1,11 +1,14 @@
 import "./skills.css";
-
+import FadeUp from "./FadeUp";
 function Skills() {
   return (
     <>
-      <div className="section-header">
-        <h2 className="section-title">Skills</h2>
-      </div>
+      <FadeUp>
+        <div className="section-header">
+          <h2 className="section-title">Skills</h2>
+        </div>
+      </FadeUp>
+
       <br />
       <section id="skills">
         <div className="card">

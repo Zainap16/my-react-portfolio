@@ -5,8 +5,14 @@
 
 /* HERO/ABOUT ME SECTION */
 .hero {
-  /* border: 1px solid rgba(255, 226, 254, 0.2); */
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 2rem;
   padding-top: 20%;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
 }
 .hero-name,
 .hero-desc,
@@ -104,5 +110,15 @@ button:active .button_top {
   }
   50% {
     opacity: 0.3;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-desc {
+    padding-right: 5%;
   }
 }

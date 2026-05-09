@@ -1,8 +1,17 @@
 #contact a {
   display: flex;
   align-items: center;
+
   gap: 10px; /* space between icon and text */
 }
+
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  align-items: center;
+}
+
 /* exp-item */
 
 .socials ul li a:hover {

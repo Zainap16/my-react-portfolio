@@ -1,4 +1,5 @@
 import "./AboutMe.css";
+import Terminal from "./terminal";
 
 function AboutMe() {
   return (
@@ -37,7 +38,11 @@ function AboutMe() {
               </button>
             </div>
           </div>
+          <div className="hero-special">
+            <Terminal />
+          </div>
         </div>
+
         {/* HERO ABOUT ME PAGE END*/}
       </div>
     </>

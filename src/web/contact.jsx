@@ -16,7 +16,7 @@ function Contact() {
       </div>
 
       <section id="contact">
-        <div className="socials">
+        <div className="socials exp-item">
           <ul>
             <li>
               <a href="https://github.com/Zainap16">
