@@ -94,7 +94,7 @@
 
 /* hide terminal completely on mobile */
 @media (max-width: 768px) {
-  .hero-terminal {
+  #terminal-container {
     display: none;
   }
 }

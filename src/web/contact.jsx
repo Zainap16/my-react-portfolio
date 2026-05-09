@@ -20,25 +20,25 @@ function Contact() {
           <ul>
             <li>
               <a href="https://github.com/Zainap16">
-                <IconBrandGithub size={40} stroke={1.5} color="#ffe2fe" />{" "}
+                <IconBrandGithub size={20} stroke={1.5} color="#ffe2fe" />{" "}
                 Github
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/zainap-van-blerck-928277251/">
-                <IconBrandLinkedin size={40} stroke={1.5} color="#ffe2fe" />
+                <IconBrandLinkedin size={20} stroke={1.5} color="#ffe2fe" />
                 Linkedin
               </a>
             </li>
             <li>
               <a href="mailto:zvanblerck1@gmail.com">
-                <IconMail size={40} stroke={1.5} color="#ffe2fe" /> Send Email :
+                <IconMail size={20} stroke={1.5} color="#ffe2fe" /> Send Email :
                 zvanblerck1@email.com
               </a>
             </li>
             <li>
               <a href="">
-                <IconPhone size={40} stroke={1.5} color="#ffe2fe" /> Call me:
+                <IconPhone size={20} stroke={1.5} color="#ffe2fe" /> Call me:
                 067-255-7493
               </a>
             </li>

@@ -4,6 +4,11 @@
 }
 
 /* HERO/ABOUT ME SECTION */
+
+/* #nav-links {
+  align-items: center;
+} */
+
 .hero {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -112,13 +117,33 @@ button:active .button_top {
     opacity: 0.3;
   }
 }
-
+/* phone size */
 @media (max-width: 768px) {
   .hero {
     grid-template-columns: 1fr;
   }
 
+  #availability,
+  .about-btn {
+    display: none;
+  }
+
   .hero-desc {
     padding-right: 5%;
+  }
+
+  section,
+  .hero-eyebrow span {
+    font-size: 11px;
+  }
+
+  .exp-role,
+  .card_title,
+  .link,
+  .hero-name {
+    font-size: 12px;
+  }
+  .nav-links li a {
+    align-items: center;
   }
 }

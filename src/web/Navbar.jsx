@@ -1,15 +1,20 @@
 import "./navbar.css";
-
+import { useState } from "react";
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav id="nav-bar">
       <a href="#" className="nav-logo">
         zainap.vanblerck
       </a>
-
-      <ul className="nav-links">
+      <button className="burger" onClick={() => setMenuOpen(!menuOpen)}>
+        ☰
+      </button>
+      <ul className={menuOpen ? "nav-links active" : "nav-links"}>
         <li>
-          <a href="#skills">SKILLS</a>
+          <a href="#skills" className="divider-nav">
+            SKILLS
+          </a>
         </li>
         <li>
           <a href="#projects">PROJECTS</a>
