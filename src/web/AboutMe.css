@@ -148,6 +148,16 @@ button:active .button_top {
   .nav-links li a {
     align-items: center;
   }
+
+  .projects-card {
+    width: 295px;
+    height: 300px;
+  }
+
+  /* .card__links, */
+  .projects-card img {
+    display: none;
+  }
 }
 
 .hero-name {
