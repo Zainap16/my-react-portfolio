@@ -1,5 +1,7 @@
-.edu-conatiner {
+.edu-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .edu-cards {
@@ -8,14 +10,17 @@
 
 .edu-summary {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  flex-direction: row;
+  gap: 50%;
 }
 
 .edu-badge {
   padding: 3%;
 }
 .edu-progress {
-  padding: 3% 3% 0 5%;
+  padding: 4%;
+  font-size: 0.7rem;
 }
 .edu-badge,
 .edu-progress,
@@ -25,8 +30,9 @@
 }
 
 .edu-title {
+  padding-top: 8%;
   color: #ffe2fe;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 15px;
   font-weight: 900;
   font-size: 16px;
@@ -39,4 +45,38 @@
 
 .space-divider {
   padding: 2%;
+}
+
+.edu-modules {
+  padding-bottom: 5%;
+}
+
+.edu-modules ul li {
+  list-style-type: square;
+}
+
+.edu-modules ul {
+  padding-left: 5%;
+}
+.edu-modules ul li::marker {
+  color: #ffe2fe;
+}
+
+.exp-item {
+  font-size: 0.8rem;
+}
+
+.edu-extra {
+  padding: 2%;
+}
+
+.edu-extra-container {
+  display: flex;
+  gap: 5%;
+}
+
+@media (max-width: 768px) {
+  .edu-container {
+    flex-direction: column;
+  }
 }

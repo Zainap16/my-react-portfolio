@@ -1,6 +1,8 @@
 import FadeUp from "./FadeUp";
 import { IconSchool } from "@tabler/icons-react";
 import "./education.css";
+import EducationItem from "./EducationItem";
+// import { progress } from "framer-motion";
 function Education() {
   return (
     <>
@@ -12,32 +14,53 @@ function Education() {
 
       <br />
       <section id="education">
-        <div id="edu-container">
-          <div className="exp-item">
-            <div className="edu-summary">
-              <div className="edu-badge">
-                <IconSchool stroke={2} />
-              </div>
-              <div className="edu-progress">Completed</div>
-            </div>
-            <p className="edu-title">Title of edu</p>
-            <div className="exp-company">University of South Africa</div>
-            <div className="exp-period">2024 - Present </div>
-            <div className="exp-location ">📍 Remote | Parow, CPT</div>
+        <EducationItem
+          eduBadge={<IconSchool size={24} />}
+          progress="In-Progress"
+          title="Diploma in Information Technology"
+          institution="University of South Africa"
+          period="2024 - Present"
+          location="REMOTE | CPT"
+          modules={[
+            "Web Development",
+            "Database Systems",
+            "Operating Systems & Network Technical Skills",
+            "Object-Oriented Programming",
+            "UI/UX & GUI Development",
+            "Business Informatics",
+          ]}
+          eduExtra={["NQF 6", "PART-TIME", "3rd YEAR STUDENT"]}
+        />
+        <EducationItem
+          eduBadge={<IconSchool size={24} />}
+          progress="Completed"
+          title="Systems Development"
+          institution="CAPACITI | SETA"
+          period="2023 - 2024"
+          location="CAPE TOWN, WESTERN CAPE"
+          modules={[
+            "Web Development",
+            "Object-Oriented Programming",
+            "UI/UX & GUI Development",
+          ]}
+          eduExtra={["NQF 5", "Learnership"]}
+        />
 
-            <div className="divider space-divider"></div>
-
-            <div className="edu-modules ">
-              <p className="edu-module-tit ">KEY MODULES</p>
-              <ul>
-                <li>Data structures</li>
-                <li>Database Systems</li>
-                <li>Computer Networks</li>
-              </ul>
-            </div>
-            <span className="edu-extra">Expected 2027</span>
-          </div>
-        </div>
+        <EducationItem
+          eduBadge={<IconSchool size={24} />}
+          progress="In-Progress"
+          title="Bsc in Robotics Engineering"
+          institution="University of Applied Sciences"
+          period="2026 - Present"
+          location="REMOTE | GERMANY"
+          modules={[
+            "Linear Algebra",
+            "Physics",
+            "Technical Drawing",
+            "Robotics",
+          ]}
+          eduExtra={["NQF 7", "1st YEAR STUDENT"]}
+        />
       </section>
     </>
   );
