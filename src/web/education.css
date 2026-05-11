@@ -1,0 +1,42 @@
+.edu-conatiner {
+  display: flex;
+}
+
+.edu-cards {
+  background-color: rgb(17, 14, 14);
+}
+
+.edu-summary {
+  display: flex;
+  justify-content: space-around;
+}
+
+.edu-badge {
+  padding: 3%;
+}
+.edu-progress {
+  padding: 3% 3% 0 5%;
+}
+.edu-badge,
+.edu-progress,
+.edu-extra {
+  border: 1px solid rgba(255, 226, 254, 0.2);
+  background-color: rgb(17, 14, 14);
+}
+
+.edu-title {
+  color: #ffe2fe;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.edu-module-tit {
+  padding-top: 2%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.space-divider {
+  padding: 2%;
+}

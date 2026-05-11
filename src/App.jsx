@@ -5,6 +5,7 @@ import Contact from "./web/contact";
 import AboutMe from "./web/about";
 import Skills from "./web/skills";
 import Navbar from "./web/Navbar";
+import Education from "./web/education";
 // import CurrentlyWorkingOn from "./web/CurrentlyWorkingOn";
 function App() {
   return (
@@ -14,12 +15,16 @@ function App() {
       <br />
       <Skills />
       <br /> <br />
+      <Education />
+      <br />
+      <br />
       <Projects />
       <br />
       <Experience />
       {/* <br />
       <CurrentlyWorkingOn />
       <br /> */}
+      <br />
       <Contact />
     </>
   );
