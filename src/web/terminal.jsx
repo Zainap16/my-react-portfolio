@@ -25,7 +25,7 @@ function Terminal() {
           <div className="t-line">
             <span className="t-out">
               &nbsp;&nbsp;<span className="t-key">"name"</span>:{" "}
-              <span className="t-str">"Your Name"</span>,
+              <span className="t-str">"Zainap"</span>,
             </span>
           </div>
           <div className="t-line">
@@ -58,7 +58,7 @@ function Terminal() {
           <div className="t-line">
             <span className="t-out">
               &nbsp;&nbsp;&nbsp;&nbsp;
-              <span className="t-str">"TypeScript"</span>
+              <span className="t-str">"MySQL"</span>
             </span>
           </div>
           <div className="t-line">
